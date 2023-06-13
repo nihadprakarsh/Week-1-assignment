@@ -17,6 +17,28 @@
   - `npm run test-calculator`
 */
 
-class Calculator {}
+class Calculator {
+  Calculator(n){
+    result+= n;
+  }
+  add(n){
+    result+=n;
+  }
+  subtract(n){
+    result-=n;
+  }
+  multiply(n){
+    resilt*=n;
+  }
+  divide(n){
+    result/=n;
+  }
+  clear(){
+    result=0;
+  }
+  getResult(){
+    return result;
+  }
+}
 
 module.exports = Calculator;
